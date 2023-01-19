@@ -1,4 +1,4 @@
-# coded by emyounoone
+# coded by b3rlin
 import urllib2
 import sys
 import threading
@@ -17,7 +17,7 @@ def banner():
      |  |                 |  |  |     | -==----'|      |
      |  |   Sultan |  |  |     |         |      |
      |  |  Bad command or |  |  |/----|`---=    |      |
-     |  |  C:\>_Emyounoone|  |  |   ,/|==== ooo |      ;
+     |  |  |  |  |   ,/|==== ooo |      ;
      |  |                 |  |  |  // |(((( [33]|    ,"
      |  `-----------------'  |," .;'| |((((     |  ,"
      +-----------------------+  ;;  | |         |,"
@@ -2793,7 +2793,7 @@ def buildblock(size):
 def usage():
     print '---------------------------------------------------'
     print 'python ddos.py site-url'
-    print 'emyounoone tarafindan kodlanmistir '
+    print 'B3rlin'
     print '---------------------------------------------------'
 
 
@@ -2854,7 +2854,8 @@ class MonitorThread(threading.Thread):
                 print "%d Requests Sent" % (request_counter)
                 previous = request_counter
         if flag == 2:
-            print "\n-- BUGUN COK FAZLA DDOS ATILDI '-' --"
+            print "\n-- 
+TOO MUCH DDOSED TODAY '-' --"
 
 
 # execute
